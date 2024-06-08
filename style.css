@@ -1,11 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 body {
   background-color: #edf7fc;
-  font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 250;
-  font-style: normal;
 }
 
 .main-container {
@@ -23,15 +19,25 @@ body {
 }
 
 .name {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
   color: #000e14;
   font-size: 18px;
+
   text-align: center;
   text-transform: uppercase;
 }
 
 .description {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
   color: #000e14;
   font-size: 14px;
+
   text-align: center;
   margin-bottom: 15px;
 }
@@ -42,7 +48,12 @@ body {
 }
 
 .link-button {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
   font-size: 15px;
+
   margin-top: 15px;
   border: none;
   text-decoration: none;
