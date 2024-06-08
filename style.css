@@ -5,7 +5,7 @@ body {
 }
 
 .main-container {
-    max-width: 750px;
+  max-width: 750px;
   width: 96%;
   margin: auto;
   margin-top: 65px;
@@ -40,7 +40,7 @@ body {
   font-size: 14px;
 
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .description-link {
@@ -57,9 +57,11 @@ body {
 
   margin-top: 15px;
   border: none;
+  text-align: center;
   text-decoration: none;
   color: #ffffff;
   background-color: rgb(4, 30, 58);
+  display:block;
   width: 100%;
   padding-top: 23px;
   padding-bottom: 23px;
@@ -67,6 +69,6 @@ body {
 }
 
 .link-button:hover {
-  transform: scale(1.005);
+  transform: scale(1.008);
   cursor: pointer;
 }
