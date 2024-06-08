@@ -31,17 +31,36 @@ body {
   text-transform: uppercase;
 }
 
-.description {
+.description-one {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 450;
+  font-weight: 400;
   font-style: normal;
-  color: #000e14;
-  font-size: 14px;
+  color: #6c7980;
+  font-size: 13px;
+  line-height: 1.4em;
+  max-width: 85%;
 
+  margin: auto;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: -7px;
+  margin-bottom: 15px;
 }
+
+.description-two {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000e14;
+    font-size: 14px;
+    line-height: 1.4em;
+    max-width: 80%;
+  
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
 .description-link {
   color: #000e14;
@@ -60,7 +79,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: rgb(4, 30, 58);
+  background-color: #000e14;
   display:block;
   width: 100%;
   padding-top: 23px;
