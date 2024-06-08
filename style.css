@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
 
 body {
-background-color: #edf7fc;
+  background-color: #edf7fc;
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
   font-weight: 250;
@@ -42,8 +42,10 @@ background-color: #edf7fc;
 }
 
 .link-button {
+  font-size: 15px;
   margin-top: 15px;
   border: none;
+  text-decoration: none;
   color: #ffffff;
   background-color: rgb(4, 30, 58);
   width: 100%;
