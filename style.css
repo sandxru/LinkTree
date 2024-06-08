@@ -5,6 +5,7 @@ body {
 }
 
 .main-container {
+    max-width: 750px;
   width: 96%;
   margin: auto;
   margin-top: 65px;
@@ -63,4 +64,9 @@ body {
   padding-top: 23px;
   padding-bottom: 23px;
   border-radius: 15px;
+}
+
+.link-button:hover {
+  transform: scale(1.005);
+  cursor: pointer;
 }
